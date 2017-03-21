@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="apps.emajjaas.socialconexion.MainActivity">
+    <RelativeLayout
+        android:id="@+id/perfil_iniciado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/usuario"
+            android:padding="5dp"
+            android:layout_below="@+id/logout"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:layout_below="@+id/login_button"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/usuario"
+            android:padding="5dp"
+            android:textSize="12sp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logout"
+            android:padding="10dp"
+            android:text="Fin de Sesion"
+            android:onClick="logOut"
+            android:textSize="12sp"
+            android:src="@drawable/glogout"/>
+
+        <com.facebook.login.widget.LoginButton
+            android:layout_toRightOf="@+id/logout"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/login_button"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/perfil_finalizado"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="18dp"/>
+
+        <com.facebook.login.widget.LoginButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/login_button"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
