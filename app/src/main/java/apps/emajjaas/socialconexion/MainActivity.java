@@ -43,6 +43,7 @@ import com.google.android.gms.plus.model.people.Person;
 
 public class MainActivity extends AppCompatActivity implements OnClickListener, ConnectionCallbacks, OnConnectionFailedListener {
 
+    //Variable vista AdsMob
     private AdView adView;
 
     private CallbackManager callbackManager;

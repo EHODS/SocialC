@@ -12,12 +12,14 @@
         android:layout_margin="10dp"
         android:visibility="gone">
 
+        // Nombre de usuario G+
         <TextView
             style="@style/text"
             android:id="@+id/usuario"
             android:padding="5dp"
             android:layout_below="@+id/logout" />
 
+        //Correo electronico G+
         <TextView
             style="@style/text"
             android:id="@+id/email"
@@ -27,6 +29,7 @@
             android:layout_toEndOf="@+id/usuario"
             android:padding="5dp" />
 
+        //Boton salir G+
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -38,6 +41,7 @@
             android:src="@drawable/glogout"
             android:contentDescription="@string/image" />
 
+        //Boton entrat/salir facebook
         <com.facebook.login.widget.LoginButton
             android:layout_toEndOf="@+id/logout"
             android:layout_height="wrap_content"
@@ -54,6 +58,7 @@
         android:orientation="horizontal"
         android:visibility="visible">
 
+        //Boton entrar G+
         <com.google.android.gms.common.SignInButton
             android:id="@+id/signin"
             android:layout_width="wrap_content"
@@ -61,6 +66,7 @@
             android:layout_margin="10dp"
             android:textSize="18sp"/>
 
+        //Boton entrat/salir facebook
         <com.facebook.login.widget.LoginButton
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
@@ -70,14 +76,15 @@
 
     <RelativeLayout
             style="@style/RelativeLAyout">
-            <!-- view for AdMob Banner Ad -->
+
+            //Banner AdsMob
             <com.google.android.gms.ads.AdView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/ad_view"
                 android:layout_centerHorizontal="true"
                 android:layout_alignParentBottom="true"
-                ads:adSize="BANNER"
+                ads:adSize="SMART_BANNER"
                 ads:adUnitId="@string/id_banner">
 
             </com.google.android.gms.ads.AdView>
