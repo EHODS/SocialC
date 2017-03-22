@@ -8,41 +8,35 @@
 
 
     <RelativeLayout
+        style="@style/RelativeLAyout"
         android:id="@+id/perfil_iniciado"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
         android:layout_margin="10dp"
         android:visibility="gone">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/text"
             android:id="@+id/usuario"
             android:padding="5dp"
-            android:layout_below="@+id/logout"
-            android:textSize="12sp" />
+            android:layout_below="@+id/logout" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/text"
             android:id="@+id/email"
             android:layout_below="@+id/login_button"
             android:layout_marginTop="10dp"
             android:layout_toEndOf="@+id/usuario"
-            android:padding="5dp"
-            android:textSize="12sp"/>
+            android:padding="5dp" />
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/logout"
             android:padding="10dp"
-            android:text="@string/fin_de_sesion"
+            android:text="@string/logout"
             android:onClick="logOut"
             android:textSize="12sp"
             android:src="@drawable/glogout"
-            android:contentDescription="@string/imagen" />
+            android:contentDescription="@string/image" />
 
         <com.facebook.login.widget.LoginButton
             android:layout_toEndOf="@+id/logout"
@@ -53,8 +47,7 @@
     </RelativeLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/LinearLayout"
         android:id="@+id/perfil_finalizado"
         android:layout_marginBottom="20dp"
         android:gravity="center"
@@ -76,9 +69,7 @@
     </LinearLayout>
 
     <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
+            style="@style/RelativeLAyout">
             <!-- view for AdMob Banner Ad -->
             <com.google.android.gms.ads.AdView
                 android:layout_width="wrap_content"
