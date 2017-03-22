@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "581955962750",
+    "firebase_url": "https://socialconexion-131e9.firebaseio.com",
+    "project_id": "socialconexion-131e9",
+    "storage_bucket": "socialconexion-131e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581955962750:android:fb08e4ae024ffc41",
+        "android_client_info": {
+          "package_name": "apps.emajjaas.socialconexion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581955962750-0tft3on6qvhi0uau9ttsput70mtrutf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQKIiS0qzL65BcbvuhWUpZDElJy-cZlH0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

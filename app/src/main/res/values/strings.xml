@@ -3,4 +3,9 @@
     <string name="facebook_app_id">795289517292941</string>
     <string name="how_to_use">How to use</string>
     <string name="error">Error en la Reproduccion del Video</string>
+
+    <string name="id_banner">ca-app-pub-8065716637877820/9810213791</string>
+
+    <string name="fin_de_sesion">Fin de Sesion</string>
+    <string name="imagen">imagen</string>
 </resources>
