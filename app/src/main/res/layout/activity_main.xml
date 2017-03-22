@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="apps.emajjaas.socialconexion.MainActivity">
 
-
     <RelativeLayout
         style="@style/RelativeLAyout"
         android:id="@+id/perfil_iniciado"
@@ -83,9 +82,4 @@
 
             </com.google.android.gms.ads.AdView>
         </RelativeLayout>
-
-
-
-
-
 </RelativeLayout>
